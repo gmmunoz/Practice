@@ -17,13 +17,13 @@ public class AlertCarolinaCalculator {
 
 		// TODO: Calculate Alert Carolina Score
 		double temp;
-		temp = console.promptDouble("Temperature in Farenheit:");
+		temp = console.promptDouble("Temperature in Farenheit (is it hot?):");
 				
 		double fallensnow;
-		fallensnow = console.promptDouble("Inches of Snow Fallen:");
+		fallensnow = console.promptDouble("Inches of Snow Fallen (wow it's cold!):");
 		
 		double projectedsnow;
-		projectedsnow = console.promptDouble("Inches of snow projected:");
+		projectedsnow = console.promptDouble("Inches of snow projected (snow day gonna happen?):");
 
 		double temperatureincelsius = (temp - 32) * 5/9; 
 		console.print("Temperature (C): " + temperatureincelsius);
